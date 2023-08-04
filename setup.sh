@@ -138,14 +138,14 @@ echo -e "$green          Install UPMENU             $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear  
-wget https://raw.githubusercontent.com/Lib3v/sungut/main/updatemenu/updatemenu.sh && chmod +x updatemenu.sh && ./updatemenu.sh
+wget https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/updatemenu.sh && chmod +x updatemenu.sh && ./updatemenu.sh
 #install ssh ovpn
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Lib3v/sungut/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 ### Pasang Rclone
 function pasang_backup() {
     judge "Installing backup server"
