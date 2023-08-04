@@ -1,16 +1,16 @@
 #!/bin/bash
 cd /usr/bin
 # menu
-wget -O menu "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu.sh"
-wget -O menu-trial "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-trial.sh"
-wget -O menu-vmess "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-vmess.sh"
-wget -O menu-vless "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-vless.sh"
-wget -O running "https://raw.githubusercontent.com/artanodrop/v4/main/menu/running.sh"
-wget -O clearcache "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/clearcache.sh"
-wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
-wget -O menu-trojan "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-trojan.sh"
+wget -O menu "https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/menu/menu.sh"
+wget -O menu-trial "https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/menu/menu-trial.sh"
+wget -O menu-vmess "https://raw.githubusercontent.com/FdlyMots/alpha-zw/menu/menu-vmess.sh"
+wget -O menu-vless "https://raw.githubusercontent.com/FdlyMots/alpha-zw/menu/menu-vless.sh"
+wget -O running "https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/menu/running.sh"
+wget -O clearcache "https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/menu/clearcache.sh"
+wget -O menu-trgo "https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/menu/menu-trgo.sh"
+wget -O menu-trojan "https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/menu/menu-trojan.sh"
 # menu ssh ovpn
-wget -O menu-ssh "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-ssh.sh"
+wget -O menu-ssh "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-ssh.sh"
 wget -O usernew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/trial.sh"
 wget -O renew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/renew.sh"
@@ -22,7 +22,7 @@ wget -O autokill "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/autok
 wget -O ceklim "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/ceklim.sh"
 wget -O tendang "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/tendang.sh"
 # menu system
-wget -O menu-set "https://raw.githubusercontent.com/Lib3v/sungut/main/menu/menu-set.sh"
+wget -O menu-set "https://raw.githubusercontent.com/FdlyMots/alpha-zw/main/menu/menu-set.sh"
 wget -O menu-domain "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-domain.sh"
 wget -O add-host "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/add-host.sh"
 wget -O port-change "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-change.sh"
