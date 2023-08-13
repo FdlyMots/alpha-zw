@@ -248,10 +248,9 @@ echo -e "${BICyan} └───────────────────�
 echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
 echo -e "         ${BICyan}│  Version     ${NC} : V1.00"
 echo -e "         ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp${NC} Days"
-echo -e "         ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp2${NC} Days"
 echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
-read -p " select menu [ 1 / 10 ] --- >>     " otw
+read -p " select menu [ 1 - 10 ] --- >>     " otw
 echo -e ""
 case $otw in
 1) clear ; menu-ssh ;;
