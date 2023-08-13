@@ -57,13 +57,13 @@ if [ "" = "$PKG_OK" ]; then
   apt-get --yes install $REQUIRED_PKG
   echo " [ OTW UPDATE REPOSITORY ] " | lolcat
   sleep 3
-  echo -e "[ ${tyblue}NOTES${NC} ] If error you need.. to do this"
+  echo -e "[ ${tyblue}NOTES${NC} ] Untuk mencegah error saat penginstalan... ketik"
   echo -e "[ ${tyblue}NOTES${NC} ] 1. apt update -y"
   echo -e "[ ${tyblue}NOTES${NC} ] 2. apt upgrade -y"
   echo -e "[ ${tyblue}NOTES${NC} ] 3. apt dist-upgrade -y"
   echo -e "[ ${tyblue}NOTES${NC} ] 4. reboot"
   echo -e "[ ${tyblue}NOTES${NC} ] After rebooting"
-  echo -e "[ ${tyblue}NOTES${NC} ] Then run this script again"
+  echo -e "[ ${tyblue}NOTES${NC} ] Lalu Install ulang script nya"
   echo -e "[ ${tyblue}NOTES${NC} ] Klik enter untuk melanjutkan penginstallan"
   read
 else
@@ -117,7 +117,7 @@ echo ""
 wget -q https://raw.githubusercontent.com/artanodrop/v4/main/tools.sh;chmod +x tools.sh;./tools.sh
 rm tools.sh
 clear
-yellow "MASUKAN DOMAIN MU WAHAI BEBAN"
+yellow "Masukain Domain mu"
 echo " "
 read -rp "input Your Domain : " -e pp
     if [ -z $pp ]; then
