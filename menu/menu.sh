@@ -246,8 +246,9 @@ echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}  │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e "         ${BICyan}│  Version     ${NC} : Alpha V1.1."
+echo -e "         ${BICyan}│  Version     ${NC} : V1.00"
 echo -e "         ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp${NC} Days"
+echo -e "         ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp2${NC} Days"
 echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
 read -p " select menu [ 1 / 10 ] --- >>     " otw
