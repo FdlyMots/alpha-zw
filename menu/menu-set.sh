@@ -39,20 +39,22 @@ export NC='\033[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 
+# DOWNLOAD UDP
+UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
 clear
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "       ${BIWhite}${UWhite}SETTING ${NC}"
 echo -e ""
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] Panel Domain      "
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] Change Port All Account      "
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] Webmin Menu      "
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] Speedtest VPS   "
+echo -e "     ${BICyan}[${BIWhite}01${BICyan}] Ganti Domain      "
+echo -e "     ${BICyan}[${BIWhite}02${BICyan}] Ganti Port       "
+echo -e "     ${BICyan}[${BIWhite}03${BICyan}] Ganti Banner"
+echo -e "     ${BICyan}[${BIWhite}04${BICyan}] Speedtest VPS    "
 echo -e "     ${BICyan}[${BIWhite}05${BICyan}] About Script     "
 echo -e "     ${BICyan}[${BIWhite}06${BICyan}] Set Auto Reboot   "
 echo -e "     ${BICyan}[${BIWhite}07${BICyan}] Restart All Service"
-echo -e "     ${BICyan}[${BIWhite}08${BICyan}] Change Banner"
+echo -e "     ${BICyan}[${BIWhite}08${BICyan}] Webmin Menu      "
 echo -e "     ${BICyan}[${BIWhite}09${BICyan}] Cek Bandwith"
-
+echo -e "     ${BICyan}[${BIWhite}10${BICyan}] Install Udp"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
 echo ""
@@ -61,13 +63,14 @@ echo -e ""
 case $opt in
 1) clear ; menu-domain ; exit ;;
 2) clear ; port-change ; exit ;;
-3) clear ; menu-webmin ; exit ;;
+3) clear ; nano /etc/issue.net ; exit ;; #ssh-vpn banner.conf
 4) clear ; speedtest ; exit ;;
 5) clear ; about ; exit ;;
 6) clear ; auto-reboot ; exit ;;
 7) clear ; restart ; exit ;;
-8) clear ; nano /etc/issue.net ; exit ;; #ssh-vpn banner.conf
+8) clear ; menu-webmin ; exit ;;
 9) clear ; bw ; exit ;;
+10) clear ; clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
