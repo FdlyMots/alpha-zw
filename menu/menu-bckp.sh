@@ -52,10 +52,6 @@ LIGHT='\033[0;37m'
 grenbo="\e[92;1m"
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 # Getting
-export CHATID="5491480146"
-export KEY="5893916269:AAFoRG0z9y0Rewi6K3bF6_momM9Wyom6BGE"
-export TIME="10"
-export URL="https://api.telegram.org/bot$KEY/sendMessage"
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear 
 clear
